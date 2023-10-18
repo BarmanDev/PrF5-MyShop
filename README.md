@@ -1,7 +1,11 @@
 # MyShop :movie_camera:
 ## DESCRIPCIÓN DEL PROYECTO
 
-Vamos a hacer una tienda online 
+Los CEOs de Disney, Giacomo y María, han solicitado al equipo de desarrollo mejorar la experiencia de comercio electrónico en la página web de Disney. El objetivo es crear una página de inicio de Disney con 6 categorías de la marca.
+
+Al entrar en una de las categorías, los usuarios podrán ver el merchandising y guardar los productos en favoritos.
+
+Por último, al acceder a uno de los productos deseados, aparecerá el producto con su descripción, precio y un botón para añadir al carrito, así como un apartado para guardarlo en favoritos.
 
 ## LENGUAJES UTILIZADOS
 <div>
