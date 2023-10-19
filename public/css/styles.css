@@ -2,7 +2,6 @@
   list-style-type: none;
   text-align: center;
   font-family: Century;
-  font-size: larger;
 }
 
 #navigator-bar li {
@@ -14,6 +13,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 1em;
+}
+
+#nav-content {
+  border: black solid 1px;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
