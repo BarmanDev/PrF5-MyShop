@@ -24,11 +24,12 @@
   padding: 2px 7px 2px 7px;
   border: 1px solic black;
   text-decoration: none;
+  transition: transform 0.3s;
 }
 
 #navigator-bar li a:hover {
   color: #f00303;
-  transform: scale(2);
+  font-size: 1.2rem;
 }
 
 a:visited {
