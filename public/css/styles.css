@@ -20,6 +20,21 @@
   border: black solid 1px;
 }
 
+#navigator-bar li a {
+  padding: 2px 7px 2px 7px;
+  border: 1px solic black;
+  text-decoration: none;
+}
+
+#navigator-bar li a:hover {
+  color: #f00303;
+  transform: scale(2);
+}
+
+a:visited {
+  color: black;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
