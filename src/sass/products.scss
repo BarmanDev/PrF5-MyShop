@@ -1,0 +1,35 @@
+@use 'mixin.scss';
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-left: 4rem;
+}
+
+.product-card {
+
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 14.5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.price {
+    color: #ff0000;
+    font-weight: bold;
+}
+.star-favorite{
+    display: flex;
+    justify-content: flex-end;
+
+}
