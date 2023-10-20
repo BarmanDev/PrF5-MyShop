@@ -86,9 +86,15 @@ h2 {
 }
 
 .red-heart {
-  color: red;
+  fill: red;
   cursor: pointer;
-  background-color: red;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
