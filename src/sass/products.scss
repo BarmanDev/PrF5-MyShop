@@ -44,3 +44,11 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+#arrow {
+    float: right;
+    position: relative;
+    z-index: 2;
+    top: -80px;
+    right: 100px; 
+  }

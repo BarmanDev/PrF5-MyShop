@@ -316,6 +316,14 @@ h2 {
   font-weight: bold;
 }
 
+#arrow {
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  right: 100px;
+}
+
 .icon_footer {
   width: 50px;
 }
