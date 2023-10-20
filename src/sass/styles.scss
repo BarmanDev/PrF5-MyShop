@@ -1,5 +1,13 @@
+@use 'banner-style.scss';
+@use 'nav-style.scss';
 @use 'normalize.scss';
+<<<<<<< HEAD
 @use 'home-style.scss';
 @use 'detail-style.scss';
+=======
+@use 'home-main.scss';
+>>>>>>> 09abc64a750f2225d718bfdd39d35de00feedbb4
 @use 'mixin.scss';
-
+@use 'header-style.scss';
+@use 'products.scss';
+@use 'footer-style.scss';

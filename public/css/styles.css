@@ -1,3 +1,78 @@
+.banner-el img {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.slider-item {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
+  border-radius: 0 0 50px 50px;
+}
+
+.box .banner-txt {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.box .banner-txt span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#navigator-bar {
+  list-style-type: none;
+  text-align: center;
+  font-family: Century;
+}
+
+#navigator-bar li {
+  display: inline;
+  text-align: center;
+}
+
+#navigator-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+#nav-content {
+  border: black solid 1px;
+}
+
+#navigator-bar li a {
+  padding: 2px 7px 2px 7px;
+  border: 1px solic black;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+#navigator-bar li a:hover {
+  color: #f00303;
+  font-size: 1.2rem;
+}
+
+a:visited {
+  color: black;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -52,6 +127,7 @@ table {
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 body {
   margin: 20px;
   font-family: century;
@@ -127,6 +203,220 @@ body p {
 #review-container li {
   font-size: 16px;
   font-family: century;
+=======
+.contain-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#contain-img img {
+  max-width: 100%;
+  transition: all 300ms;
+  position: relative;
+}
+
+#contain-img img:hover {
+  transform: scale(1.15);
+}
+
+.change-size-img1 {
+  width: 570px;
+  height: 250px;
+  padding-right: 5rem;
+  margin-top: 2rem;
+}
+
+.change-size-img {
+  width: 530px;
+  height: 270px;
+  padding-left: 5rem;
+  margin-top: 4rem;
+}
+
+.change-size-img3 {
+  width: 530px;
+  height: 170px;
+  padding-left: 5rem;
+  margin-top: 2rem;
+}
+
+.change-size-img2 {
+  width: 550px;
+  height: 270px;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+
+.subscribete {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 80rem;
+}
+
+.letters {
+  font-style: century;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px grey;
+  padding-right: 1.5rem;
+}
+
+.inputsub input {
+  width: 8rem;
+  height: 1.8rem;
+  border-radius: 20px 10px 10px 0px;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  font-style: century;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.inputsub input:hover {
+  transition: all 300ms;
+  transform: scale(1.3);
+  cursor: zoom-in;
+}
+
+.letters:hover {
+  -webkit-animation: tiembla 0.1s infinite;
+}
+
+@-webkit-keyframes tiembla {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg) scale(0.8);
+  }
+  100% {
+    -webkit-transform: rotateZ(5deg);
+  }
+}
+header {
+  display: flex;
+  background-image: url("../../public/img/castle_disney_2.jpg");
+  height: 220px;
+  justify-content: space-between;
+  align-items: center;
+  background-clip: content-box;
+  background-position: center;
+}
+
+.head {
+  display: flex;
+  background-image: url("/public/img/castle_n_2.jpg");
+  height: 240px;
+  justify-content: space-between;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#arrow {
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  right: 100px;
+}
+
+#logo {
+  width: 150px;
+  padding-left: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: century;
+}
+
+#menu2 {
+  margin-right: 20px;
+  float: top;
+  height: 80%;
+}
+
+button {
+  border: none;
+}
+
+.dcha:hover {
+  scale: 1.5;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-left: 4rem;
+  margin: 2% 6%;
+}
+
+.product-card {
+  padding: 0.6rem;
+  margin: 0.6rem;
+  width: 14.5rem;
+  text-align: center;
+  background-color: white;
+}
+
+.product-image {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.price {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.star-favorite {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red-heart {
+  fill: red;
+  cursor: pointer;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#arrow {
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  right: 100px;
+}
+
+.icon_footer {
+  width: 50px;
+}
+
+#foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 20px;
+>>>>>>> 09abc64a750f2225d718bfdd39d35de00feedbb4
 }
 
 /*# sourceMappingURL=styles.css.map */
