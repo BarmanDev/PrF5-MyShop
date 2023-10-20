@@ -14,7 +14,7 @@
     position: relative;
     
 }
-img:hover{
+#contain-img img:hover{
     transform: scale(1.15);
 }
 .change-size-img1{
@@ -68,12 +68,6 @@ img:hover{
     font-style: century;
     text-shadow: 1px 1px 2px grey;
 }
-
-#contain-img a:hover {
-    
-    cursor:alias;
-    
-  }
 
 
 .inputsub input:hover{
