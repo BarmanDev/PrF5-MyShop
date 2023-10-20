@@ -52,6 +52,7 @@ table {
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 .contain-1 {
   display: flex;
   justify-content: center;
@@ -178,6 +179,52 @@ button {
 
 .dcha:hover {
   scale: 1.5;
+=======
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-left: 4rem;
+  margin: 2% 6%;
+}
+
+.product-card {
+  padding: 0.6rem;
+  margin: 0.6rem;
+  width: 14.5rem;
+  text-align: center;
+  background-color: white;
+}
+
+.product-image {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.price {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.star-favorite {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red-heart {
+  fill: red;
+  cursor: pointer;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+>>>>>>> feature/section-articles
 }
 
 /*# sourceMappingURL=styles.css.map */
