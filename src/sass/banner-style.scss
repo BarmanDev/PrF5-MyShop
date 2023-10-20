@@ -1,0 +1,43 @@
+@use "mixin.scss";
+
+
+
+.banner-el img {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.box {
+   
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: left;
+}
+
+.slider-item  {
+    flex: 0  0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    border-radius: 0 0 50px 50px;
+ }
+
+ .box .banner-txt {
+    max-width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: left;
+ }
+
+ .box .banner-txt span {
+    font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 300;
+ }
+
+
