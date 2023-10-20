@@ -52,4 +52,81 @@ table {
   border-spacing: 0;
 }
 
+body {
+  margin: 20px;
+  font-family: century;
+}
+body h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: century;
+  font-style: normal;
+  font-variant: small-caps;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+body p {
+  font-size: 20px;
+  font-family: century;
+}
+
+#detail-container img {
+  width: 50%;
+  height: 50%;
+}
+#detail-container .heart {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
+#detail-container .cart {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  padding-right: 20px;
+}
+#detail-container .main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detail-container .main-box h3 {
+  text-align: center;
+  font-size: 80px;
+  font-family: century;
+}
+#detail-container .main-box .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#detail-container .main-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #EE3535;
+  color: white;
+  padding: 15px;
+  font-family: century;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+#review-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#review-container img {
+  width: 150px;
+  height: 150px;
+}
+#review-container li {
+  font-size: 16px;
+  font-family: century;
+}
+
 /*# sourceMappingURL=styles.css.map */
