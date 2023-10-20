@@ -1,10 +1,8 @@
-@use 'mixin.scss';
+@use 'mixin';
 
 .product-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    margin-left: 4rem;
+    @include mixin.grid-columns(3, 1fr, 1rem, 4rem);
+
 }
 
 .product-card {
@@ -31,5 +29,9 @@ h2 {
 .star-favorite{
     display: flex;
     justify-content: flex-end;
+
+}
+
+.red-heart{
 
 }

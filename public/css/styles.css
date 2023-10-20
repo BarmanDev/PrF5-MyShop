@@ -54,7 +54,7 @@ table {
 
 .product-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-left: 4rem;
 }
@@ -83,6 +83,12 @@ h2 {
 .star-favorite {
   display: flex;
   justify-content: flex-end;
+}
+
+.red-heart {
+  color: red;
+  cursor: pointer;
+  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
