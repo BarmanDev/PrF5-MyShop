@@ -128,7 +128,6 @@ table {
 }
 
 body {
-  margin: 20px;
   font-family: century;
 }
 body h1 {
@@ -201,7 +200,8 @@ body p {
 }
 #review-container li {
   font-size: 16px;
-  font-family: century; }
+  font-family: century;
+}
 
 .contain-1 {
   display: flex;
@@ -415,7 +415,6 @@ h2 {
 
 footer p {
   font-size: 20px;
->>>>>>> 09abc64a750f2225d718bfdd39d35de00feedbb4
 }
 
 /*# sourceMappingURL=styles.css.map */
