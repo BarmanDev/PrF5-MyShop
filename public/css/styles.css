@@ -52,7 +52,6 @@ table {
   border-spacing: 0;
 }
 
-<<<<<<< HEAD
 .contain-1 {
   display: flex;
   justify-content: center;
@@ -64,7 +63,7 @@ table {
   position: relative;
 }
 
-img:hover {
+#contain-img img:hover {
   transform: scale(1.15);
 }
 
@@ -118,10 +117,6 @@ img:hover {
   font-size: 0.9rem;
   font-style: century;
   text-shadow: 1px 1px 2px grey;
-}
-
-#contain-img a:hover {
-  cursor: alias;
 }
 
 .inputsub input:hover {
@@ -179,7 +174,8 @@ button {
 
 .dcha:hover {
   scale: 1.5;
-=======
+}
+
 .product-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -224,7 +220,6 @@ h2 {
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
->>>>>>> feature/section-articles
 }
 
 /*# sourceMappingURL=styles.css.map */
