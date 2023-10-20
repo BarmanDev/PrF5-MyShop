@@ -88,4 +88,21 @@ button {
   scale: 1.5;
 }
 
+.icon_footer {
+  width: 50px;
+}
+
+#foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */
