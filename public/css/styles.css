@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -54,12 +55,12 @@ table {
 
 header {
   display: flex;
-  background-image: url("../../public/img/castle_disney_2.jpg");
+  background-image: url("../../public/img/fire2.jpg");
   height: 220px;
   justify-content: space-between;
   align-items: center;
-  background-clip: content-box;
-  background-position: center;
+  background-clip: padding-box;
+  background-position: left;
 }
 
 #logo {
@@ -69,10 +70,11 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 80px;
-  letter-spacing: 25px;
+  font-size: 120px;
+  letter-spacing: 35px;
   color: white;
-  font-family: century;
+  font-family: Kaushan Script;
+  padding-right: 100px;
 }
 
 #menu2 {
@@ -82,7 +84,23 @@ h1 {
 }
 
 #menu2 img {
-  width: 50px;
+  width: 40px;
+}
+
+#star:hover {
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#star:hover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 button {
