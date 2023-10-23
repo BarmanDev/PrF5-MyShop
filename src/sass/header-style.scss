@@ -12,6 +12,9 @@ header {
     background-clip: padding-box;
     background-position: left;
 }
+header h1 {    
+    font-family: Kaushan Script; 
+}
 
 #logo {
     width: 250px;
@@ -23,7 +26,6 @@ h1 {
     font-size: 120px;
     letter-spacing: 35px;
     color: white;
-    font-family: Kaushan Script; 
     padding-right: 100px;   
 }
 
