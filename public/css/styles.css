@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
+* {
+  font-family: Century;
+}
+
 .banner-el img {
-  width: 100%;
   display: flex;
   width: 100%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+}
+
+#banner {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 100%;
 }
 
 .box {
@@ -24,9 +35,11 @@
   max-width: 1000px;
   margin: 0 auto;
   height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
+  top: 90%;
+  position: absolute;
+  left: 40%;
+  color: whitesmoke;
+  font-family: Century;
 }
 
 .box .banner-txt span {
@@ -39,6 +52,7 @@
   list-style-type: none;
   text-align: center;
   font-family: Century;
+  font-size: 1.4em;
 }
 
 #navigator-bar li {
@@ -66,7 +80,7 @@
 
 #navigator-bar li a:hover {
   color: #f00303;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 a:visited {
@@ -314,49 +328,55 @@ body p {
 }
 header {
   display: flex;
-  background-image: url("../../public/img/castle_disney_2.jpg");
+  background-image: url("../../public/img/fire2.jpg");
   height: 220px;
   justify-content: space-between;
   align-items: center;
-  background-clip: content-box;
-  background-position: center;
+  background-clip: padding-box;
+  background-position: left;
 }
 
-.head {
-  display: flex;
-  background-image: url("/public/img/castle_n_2.jpg");
-  height: 240px;
-  justify-content: space-between;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#arrow {
-  float: right;
-  position: relative;
-  z-index: 2;
-  top: -80px;
-  right: 100px;
+header h1 {
+  font-family: Kaushan Script;
 }
 
 #logo {
-  width: 150px;
-  padding-left: 50px;
+  width: 250px;
+  padding-left: 150px;
 }
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 120px;
+  letter-spacing: 35px;
   color: white;
-  font-family: century;
+  padding-right: 100px;
 }
 
 #menu2 {
   margin-right: 20px;
   float: top;
-  height: 80%;
+  height: 60%;
+}
+
+#menu2 img {
+  width: 40px;
+}
+
+#star:hover {
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#star:hover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 button {
