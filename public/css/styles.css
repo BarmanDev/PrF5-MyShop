@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
 * {
   font-family: Century;
 }
@@ -86,7 +87,6 @@ a:visited {
   color: black;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -315,6 +315,10 @@ header {
   background-position: left;
 }
 
+header h1 {
+  font-family: Kaushan Script;
+}
+
 #logo {
   width: 250px;
   padding-left: 150px;
@@ -325,7 +329,6 @@ h1 {
   font-size: 120px;
   letter-spacing: 35px;
   color: white;
-  font-family: Kaushan Script;
   padding-right: 100px;
 }
 
