@@ -1,9 +1,19 @@
+* {
+  font-family: Century;
+}
+
 .banner-el img {
-  width: 100%;
   display: flex;
   width: 100%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+}
+
+#banner {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 100%;
 }
 
 .box {
@@ -24,9 +34,11 @@
   max-width: 1000px;
   margin: 0 auto;
   height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
+  top: 90%;
+  position: absolute;
+  left: 40%;
+  color: whitesmoke;
+  font-family: Century;
 }
 
 .box .banner-txt span {
@@ -39,6 +51,7 @@
   list-style-type: none;
   text-align: center;
   font-family: Century;
+  font-size: 1.4em;
 }
 
 #navigator-bar li {
@@ -66,7 +79,7 @@
 
 #navigator-bar li a:hover {
   color: #f00303;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 a:visited {
