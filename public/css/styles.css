@@ -146,8 +146,8 @@ body p {
 }
 
 #detail-container img {
-  width: 50%;
-  height: 50%;
+  width: 500px;
+  height: 500px;
 }
 #detail-container .heart {
   width: 40px;
@@ -162,7 +162,7 @@ body p {
 }
 #detail-container .main-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 #detail-container .main-box h3 {
@@ -187,6 +187,7 @@ body p {
   font-size: 30px;
   text-align: center;
   margin: 10px 10px;
+  cursor: pointer;
 }
 
 #review-container {
@@ -199,8 +200,28 @@ body p {
   height: 150px;
 }
 #review-container li {
-  font-size: 16px;
+  font-size: 18px;
   font-family: century;
+}
+
+.thumbnails {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.thumbnails:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1 !important;
+  box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+
+.mymain img {
+  width: 50%;
+  height: 50%;
 }
 
 .contain-1 {
