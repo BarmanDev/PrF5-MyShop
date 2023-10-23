@@ -3,24 +3,37 @@
   font-family: Century;
 }
 
-.banner-el img {
-  display: flex;
-  width: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
 #banner {
   display: inline-block;
   text-align: center;
   position: relative;
   width: 100%;
+  max-height: 1400px;
 }
-
-.box {
+#banner .banner-el img {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+#banner .box {
   display: flex;
   flex-flow: row wrap;
   justify-content: left;
+}
+#banner .box .banner-txt {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  top: 90%;
+  position: absolute;
+  left: 40%;
+  color: whitesmoke;
+  font-family: Century;
+}
+#banner .box .banner-txt span {
+  font-size: 25px;
+  letter-spacing: 2px;
 }
 
 .slider-item {
@@ -31,35 +44,27 @@
   border-radius: 0 0 50px 50px;
 }
 
-.box .banner-txt {
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 100%;
-  top: 90%;
-  position: absolute;
-  left: 40%;
-  color: whitesmoke;
-  font-family: Century;
-}
-
-.box .banner-txt span {
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 300;
-}
-
 #navigator-bar {
   list-style-type: none;
   text-align: center;
   font-family: Century;
   font-size: 1.4em;
+  color: black;
 }
-
 #navigator-bar li {
   display: inline;
   text-align: center;
 }
-
+#navigator-bar li a {
+  padding: 2px 7px 2px 7px;
+  border: 1px solic black;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+#navigator-bar li a:hover {
+  color: #f00303;
+  font-size: 1.55em;
+}
 #navigator-bar ul {
   display: flex;
   flex-wrap: wrap;
@@ -69,18 +74,6 @@
 
 #nav-content {
   border: black solid 1px;
-}
-
-#navigator-bar li a {
-  padding: 2px 7px 2px 7px;
-  border: 1px solic black;
-  text-decoration: none;
-  transition: transform 0.3s;
-}
-
-#navigator-bar li a:hover {
-  color: #f00303;
-  font-size: 1.6rem;
 }
 
 a:visited {
