@@ -1,13 +1,15 @@
 
 .carrusel{
     width: 100%;
+    height: 420px;
     // max-width: 170em;
     max-height: 60em;
     
 }
 
 .carrusel .grande {
-    width: 400%;
+    width: 500%;
+    max-height: inherit;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -18,7 +20,8 @@
 }
 
 .carrusel .img{
-    width: calc(100%/4);
+    width: calc(100%/5);
+    height: inherit;
     min-height: 10vh;
 }
 
