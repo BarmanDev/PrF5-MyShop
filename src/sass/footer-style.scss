@@ -5,12 +5,19 @@
 #foot {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: grey;
+    align-items: center;    
     padding: 2rem;
     margin-top: 2rem;
+    border-top: 1px black solid;
 }
 
 footer p {
     font-size: 20px;
+}
+
+.icon_footer:hover {
+    scale: 1.2;
+    color: red;
+    
+
 }
