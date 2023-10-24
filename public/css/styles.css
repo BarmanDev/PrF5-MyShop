@@ -477,12 +477,10 @@ footer p {
 .carrusel {
   width: 90%;
   max-width: 120em;
-  background-color: lightblue;
 }
 
 .carrusel .grande {
   width: 200%;
-  background-color: orange;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -493,29 +491,23 @@ footer p {
 
 .carrusel .img {
   width: 50%;
-  background-color: lime;
   min-height: 10vh;
 }
 
 .carrusel .puntos {
   width: 100%;
-  background-color: red;
   padding: 1em;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .carrusel .punto {
   width: 2em;
   height: 2em;
-  background-color: blue;
   margin: 1em;
-}
-
-.carrusel .punto.activo {
-  background-color: orange;
 }
 
 /*# sourceMappingURL=styles.css.map */
