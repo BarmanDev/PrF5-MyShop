@@ -5,44 +5,45 @@
     // max-width: 170em;
     max-height: 60em;
     
+    .grande {
+        width: 600%;
+        max-height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        transition: all .5s ease;
+        transform: translateX(0%);
+    }
+
+    .img{
+        width: calc(100%/6);
+        height: 480px;
+        min-height: 10vh;
+    }
+    .puntos {
+        width: 100%;
+        padding: 1em;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .punto {
+        width: 2em;
+        height: 2em;
+        margin: 1em;
+        font-size: larger;
+        
+    }
+
 }
-
-.carrusel .grande {
-    width: 600%;
-    max-height: inherit;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-
-    transition: all .5s ease;
-    transform: translateX(0%);
-}
-
-.carrusel .img{
-    width: calc(100%/6);
-    height: 480px;
-    min-height: 10vh;
-}
-
-.carrusel .puntos {
-    width: 100%;
-    padding: 1em;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.carrusel .punto {
-    width: 2em;
-    height: 2em;
-    margin: 1em;
-
-}
-
-.carrusel .punto.activo {
-    color: aqua;
+  
+.punto:hover{
+    content: '\2605';
+    font-weight: bold;
+    transform: scale(1.2);
 }

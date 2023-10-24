@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
 * {
   font-family: Century;
@@ -479,7 +480,6 @@ footer p {
   height: 420px;
   max-height: 60em;
 }
-
 .carrusel .grande {
   width: 600%;
   max-height: inherit;
@@ -490,13 +490,11 @@ footer p {
   transition: all 0.5s ease;
   transform: translateX(0%);
 }
-
 .carrusel .img {
   width: 16.6666666667%;
   height: 480px;
   min-height: 10vh;
 }
-
 .carrusel .puntos {
   width: 100%;
   padding: 1em;
@@ -506,15 +504,17 @@ footer p {
   align-items: center;
   overflow: hidden;
 }
-
 .carrusel .punto {
   width: 2em;
   height: 2em;
   margin: 1em;
+  font-size: larger;
 }
 
-.carrusel .punto.activo {
-  color: aqua;
+.punto:hover {
+  content: "★";
+  font-weight: bold;
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=styles.css.map */
