@@ -45,6 +45,14 @@ h2 {
     font-weight: bold;
 }
 
+.product-image {
+    transition: transform 0.6s ease-in-out; 
+}
+
+.product-image:hover {
+    transform: scale(0.9); 
+}
+
 #arrow {
     float: right;
     position: relative;
@@ -52,3 +60,4 @@ h2 {
     top: -80px;
     right: 100px; 
   }
+
