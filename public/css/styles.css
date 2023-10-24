@@ -475,12 +475,12 @@ footer p {
 }
 
 .carrusel {
-  width: 90%;
-  max-width: 120em;
+  width: 100%;
+  max-height: 60em;
 }
 
 .carrusel .grande {
-  width: 200%;
+  width: 400%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -490,7 +490,7 @@ footer p {
 }
 
 .carrusel .img {
-  width: 50%;
+  width: 25%;
   min-height: 10vh;
 }
 
@@ -508,6 +508,10 @@ footer p {
   width: 2em;
   height: 2em;
   margin: 1em;
+}
+
+.carrusel .punto.activo {
+  color: aqua;
 }
 
 /*# sourceMappingURL=styles.css.map */
