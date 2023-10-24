@@ -481,7 +481,7 @@ footer p {
 }
 
 .carrusel .grande {
-  width: 500%;
+  width: 600%;
   max-height: inherit;
   display: flex;
   flex-flow: row nowrap;
@@ -492,8 +492,8 @@ footer p {
 }
 
 .carrusel .img {
-  width: 20%;
-  height: inherit;
+  width: 16.6666666667%;
+  height: 480px;
   min-height: 10vh;
 }
 
