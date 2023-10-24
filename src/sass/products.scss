@@ -1,0 +1,67 @@
+@use 'mixin';
+
+.product-container{
+    @include mixin.grid-columns(5, 1fr, 1rem, 4rem);
+    margin: 2% 6%;
+
+}
+
+.product-card {
+
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 14.5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.price {
+    color: #ff0000;
+    font-weight: bold;
+}
+.star-favorite{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.red-heart{
+    fill: red;
+    cursor: pointer;
+}
+
+.product-card a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product-image {
+    transition: transform 0.4s ease-in-out; 
+}
+
+.product-image:hover {
+    transform: scale(0.9); 
+}
+
+.product-card h2{
+    margin: 0.7rem 0;
+}
+
+#arrow {
+    float: right;
+    position: relative;
+    z-index: 2;
+    top: -80px;
+    right: 100px; 
+  }
+
