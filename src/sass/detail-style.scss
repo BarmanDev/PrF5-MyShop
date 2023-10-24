@@ -8,7 +8,7 @@ body {
         
         font-family: century;
 
-    h1 {
+    .detail-title {
         color: black;
         font-weight: 700;
         font-size: 40px;
@@ -19,7 +19,7 @@ body {
         text-transform: uppercase;
         }
 
-    p {
+    .detail-p {
         font-size: 20px;
         font-family: century;
     }
@@ -45,10 +45,23 @@ body {
         padding-right: 20px;
     }
 
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 900px;
+
+        h1 {
+            margin-left: 120px;
+        }
+    }
+
     .main-box {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-left: 150px;
     
         h3 {
             text-align: center;
@@ -58,7 +71,7 @@ body {
 
         .button-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
 
