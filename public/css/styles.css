@@ -527,11 +527,13 @@ footer p {
 .banner_box {
   width: 100%;
   height: auto;
+  margin: 0;
+  overflow: hidden;
 }
 .banner_box ul {
   display: flex;
   padding: 0;
-  width: 400%;
+  width: 600%;
   animation: slide 20s infinite alternate ease-in-out;
 }
 .banner_box ul li {
@@ -553,26 +555,26 @@ footer p {
 }
 .banner_box .img_banner {
   width: 100%;
-  border-radius: 100px;
+  border-radius: 0px 0px 80px 80px;
 }
 
 @keyframes slide {
   0% {
     margin-left: 0;
   }
-  20% {
+  25% {
     margin-left: 0;
   }
   25% {
     margin-left: -100%;
   }
-  45% {
+  50% {
     margin-left: -100%;
   }
   50% {
     margin-left: -200%;
   }
-  70% {
+  75% {
     margin-left: -200%;
   }
   75% {
@@ -582,5 +584,15 @@ footer p {
     margin-left: -300%;
   }
 }
+/* @media (max-width:991px) {
+
+    .banner_box {
+        width: 100%;
+    }
+    .txt_banner {
+        top: 50px;
+        padding: 0;
+    } 
+}*/
 
 /*# sourceMappingURL=styles.css.map */
