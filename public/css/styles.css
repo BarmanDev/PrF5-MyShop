@@ -340,10 +340,6 @@ body .detail-p {
 #contain-img-sub img {
   width: 200px;
   height: 140px;
-  margin-left: 53rem;
-  margin-top: 7rem;
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -358,6 +354,49 @@ body .detail-p {
 #contain-img-sub img:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
+}
+
+#contain-img-sub {
+  display: flex;
+  justify-content: center;
+}
+
+.categories-products {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.categories-products p {
+  font-size: 40px;
+  font-family: century;
+  text-shadow: 1.5px 1px 2px rgb(158, 158, 158);
+  font-weight: 600;
+}
+
+.categories-products img {
+  height: 20px;
+  width: 10px;
+  margin-top: 20px;
+  margin-left: 7px;
+}
+
+.categories-products img:hover {
+  transform: scale(2.5);
+}
+
+.chameleon img {
+  width: 80px;
+  height: 100px;
+}
+
+.chameleon {
+  display: flex;
+  justify-content: center;
+  margin-right: 29rem;
+  padding-top: 40px;
 }
 
 header {
