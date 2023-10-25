@@ -5,34 +5,33 @@
     text-align: center;
     font-family: Century;
     font-size: 1.4em;
-}
+    color: black;
 
-#navigator-bar li {
+     li {
     display: inline;
     text-align: center;
-}
+        a {
+            padding: 2px 7px 2px 7px;
+            border: 1px solic black;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        a:hover {
+            color: #f00303;
+            font-size: 1.55em;
+        }
+    }
 
-#navigator-bar ul {
+    ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1em;
+    }
 }
 
 #nav-content {
     border: black solid 1px;
-}
-
-#navigator-bar li a {
-    padding: 2px 7px 2px 7px;
-    border: 1px solic black;
-    text-decoration: none;
-    transition: transform 0.3s;
-}
-
-#navigator-bar li a:hover {
-    color: #f00303;
-    font-size: 1.6rem;
 }
 
 a:visited {

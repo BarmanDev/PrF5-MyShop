@@ -1,6 +1,7 @@
 
 .carrusel{
     width: 100%;
+<<<<<<< HEAD
     height: 420px;
     max-height: 60em;
     
@@ -41,3 +42,53 @@
     margin: 1em;
 
 }
+=======
+    height: 510px;
+    // max-width: 170em;
+    max-height: 60em;
+    
+    .grande {
+        width: 600%;
+        max-height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        transition: all .5s ease;
+        transform: translateX(0%);
+    }
+
+    .img{
+        width: calc(100%/6);
+        height: 480px;
+        min-height: 10vh;
+        border-radius: 20;
+    }
+    .puntos {
+        width: 100%;
+        padding: 1em;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .punto {
+        width: 2em;
+        height: 2em;
+        margin: 1em;
+        font-size: larger;
+    }
+
+}
+  
+.punto:hover{
+    content: '\2605';
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+
+>>>>>>> feature/all-bannerv2
