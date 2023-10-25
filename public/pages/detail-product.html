@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Product</title>
-    <link rel="stylesheet" href="/public/css/styles.css">
-</head>
+    <link rel="stylesheet" href="/public/css/styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <main>
+      <div id="detail-container">
+        <div class="main-box">
+          <section class="img-container">
+            <img
+            id="heart-icon"
+              class="heart red-heart"
+              src="/public/img/icons/HeartLoveLike.svg"
+              alt="icono corazón"
+            />
 
-        <div id="detail-container">
+            <img
+              class="prod-img mymain"
+              src="/public/img/detail-taza.jpg"
+              alt="Imagen 1"
+            />
+          </section>
 
-            <div class="main-box">
-
-                <section class="img-container">
-
-                    <img class="heart" src="/public/img/icons/HeartLoveLike.svg" alt="icono corazón">
-
-                    <img class="product-image mymain" src="/public/img/detail-taza.jpg" alt="Imagen 1">
-
-                </section>
-
-                <section class="text-container">
+          <section class="text-container">
 
                     <h1 class="detail-title">Taza Star Wars</h1>
                     
@@ -52,42 +55,41 @@
                     </div>
 
                 </section>
+          </section>
+        </div>
+      </div>
 
-            </div>
-
+      <div id="review-container">
+        <div class="product-image-pics">
+          <img
+            class="thumbnails active"
+            src="/public/img/detail-taza.jpg"
+            alt="Imagen 1"
+          />
+          <img
+            class="thumbnails"
+            src="/public/img/detail-taza-back.jpg"
+            alt="Imagen 2"
+          />
         </div>
 
-        <div id="review-container">
+        <ul>
+          <li type="disc">Pago seguro</li>
 
-            <div class="product-image-pics">
+          <li type="disc">SSL 2048 BIT</li>
 
-                <img class="thumbnails active" src="/public/img/detail-taza.jpg" alt="Imagen 1">
-                <img class="thumbnails" src="/public/img/detail-taza-back.jpg" alt="Imagen 2">
+          <li type="disc">100% Satisfacción</li>
 
-            </div>
+          <li type="disc">Garantía satisfacción o reembolso</li>
 
-            <ul>
-
-                <li type="disc">Pago seguro</li>
-
-                <li type="disc">SSL 2048 BIT</li>
-
-                <li type="disc">100% Satisfacción</li>
-
-                <li type="disc">Garantía satisfacción o reembolso</li>
-
-                <li type="disc">En caso de problemas con la entrega, podrás pedir el reembolso</li>
-
-            </ul>
-
-        </div>
-        
-
+          <li type="disc">
+            En caso de problemas con la entrega, podrás pedir el reembolso
+          </li>
+        </ul>
+      </div>
     </main>
 
-
-    <script src="/src/js/detail-product.js"></script>
-    <script src="/src/js/app.js"></script>
-
-</body>
+    <script src="../../src/js/favorite-single.js"></script>
+    <script src="../../src/js/detail-product.js"></script>
+  </body>
 </html>

@@ -1,7 +1,8 @@
 @use 'mixin.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,7200;1,7200&family=Skranji&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap');
 
 header {
     display: flex;
@@ -11,8 +12,13 @@ header {
     align-items: center;      
     background-position: left;
 }
+
 header h1 {    
     font-family: Kaushan Script; 
+}
+
+#nameShop {
+    font-family: Kaushan Script;
 }
 
 #logo {
@@ -47,7 +53,7 @@ h1 {
     -o-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
-    }
+}
     
 #star:hover{
     -moz-transform: rotate(540deg);
@@ -66,14 +72,14 @@ button {
 }
 
 #arrow {
-    float: right;
     position: relative;
     z-index: 2;
     top: -80px;
-    margin-right: 20px;
-  }
+    float: right;
+    padding-right: 20px;
+} 
 
-#arrow:hover {
-    scale: 1.5;
+#arrow:hover{ 
+    scale: 1.2;
 }
-
+ 
