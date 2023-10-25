@@ -1,48 +1,77 @@
-@use "mixin.scss";
 * {
+    box-sizing: border-box;
     font-family: Century;
+    padding:0;
 }
 
-#banner {
-    display: inline-block;
-    text-align: center;
-    position: relative;
+.banner_box {
     width: 100%;
-    max-height: 1400px;
+    height: auto;
+    overflow: hidden;
 
-    .banner-el img {
+    ul {
         display: flex;
-        width: 100%;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        align-content: center;
+        width: 600%;
+        animation: slide 30s infinite alternate ease-in-out;
+
+        li {
+            width: 100%;
+            list-style: none;
+            position: relative;
+    
+            .txt_banner {
+                position: absolute;
+                text-align: center;
+                top: 50px;
+                color: rgb(156, 5, 5);
+
+                h2 {
+                    font-family: Century;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            } 
+        }
     }
-    .box {
-        display: flex;
-     flex-flow: row wrap;
-     justify-content: left;
-     .banner-txt {
-         max-width: 1000px;
-         margin: 0 auto;
-         height: 100%;
-         top: 90%;
-         position: absolute;
-         left: 40%;
-         color: whitesmoke;
-         font-family: Century;
-      }
-      .banner-txt span {
-         font-size: 25px;
-         letter-spacing: 2px;
-      }
- }
+
+    .img_banner {
+        width: 100%;
+        border-radius: 0px 0px 300px 300px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
 
-.slider-item  {
-    flex: 0  0 100%;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-    border-radius: 0 0 50px 50px;
- }
 
+@keyframes slide {
+    0% {margin-left: 0; }
+    17% {margin-left: 0; }
 
+    17% {margin-left: -100%; }
+    34% {margin-left: -100%; }
+
+    34% {margin-left: -200%; }
+    51% {margin-left: -200%; }
+
+    51% {margin-left: -300%; }
+    67% {margin-left: -300%; }
+
+    67% {margin-left: -400%; }
+    83% {margin-left: -400%; }
+
+    83% {margin-left: -500%; }
+    100% {margin-left: -500%; }
+}
+    
+/* @media (max-width:991px) {
+
+    .banner_box {
+        width: 100%;
+    }
+    .txt_banner {
+        top: 50px;
+        padding: 0;
+    } 
+}*/
