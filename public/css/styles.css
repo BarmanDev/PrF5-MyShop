@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,7200;1,7200&family=Skranji&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -368,9 +368,15 @@ header {
   align-items: center;
   background-clip: padding-box;
   background-position: left;
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 header h1 {
+  font-family: Kaushan Script;
+}
+
+#nameShop {
   font-family: Kaushan Script;
 }
 
@@ -406,11 +412,11 @@ h1 {
 }
 
 #star:hover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -moz-transform: rotate(540deg);
+  -webkit-transform: rotate(540deg);
+  -o-transform: rotate(540deg);
+  -ms-transform: rotate(540deg);
+  transform: rotate(540deg);
 }
 
 button {
@@ -419,6 +425,18 @@ button {
 
 .dcha:hover {
   scale: 1.5;
+}
+
+#arrow {
+  position: relative;
+  z-index: 2;
+  top: -50px;
+  float: right;
+  padding-right: 20px;
+}
+
+#arrow:hover {
+  scale: 1.2;
 }
 
 .product-container {
@@ -477,14 +495,6 @@ h2 {
 
 .product-card h2 {
   margin: 0.7rem 0;
-}
-
-#arrow {
-  float: right;
-  position: relative;
-  z-index: 2;
-  top: -80px;
-  right: 100px;
 }
 
 .icon_footer {
