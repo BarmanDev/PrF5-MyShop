@@ -1,0 +1,40 @@
+.favorite-article{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    font-weight: bold;
+    color: #00236a;
+}
+
+
+#favorite-list {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    border: solid 10px #00236a;
+    border-radius: 18px;
+    list-style: none; 
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+#favorite-list li {
+    margin-top: 2rem;
+    background-color: #00236a; 
+    padding: 0.6rem ; 
+    border: 1px solid #ddd; 
+    margin: 2rem;
+    color:#ddd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#favorite-list ul{
+    margin: 0;
+}
+
