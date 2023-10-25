@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,7200;1,7200&family=Skranji&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -405,7 +406,6 @@ header {
   height: 220px;
   justify-content: space-between;
   align-items: center;
-  background-clip: padding-box;
   background-position: left;
 }
 
@@ -413,17 +413,24 @@ header h1 {
   font-family: Kaushan Script;
 }
 
+#nameShop {
+  font-family: Kaushan Script;
+}
+
 #logo {
   width: 250px;
-  padding-left: 150px;
+  padding-left: 20%;
+}
+
+#nameShop {
+  font-family: Kaushan Script;
 }
 
 h1 {
-  text-align: center;
-  font-size: 120px;
-  letter-spacing: 35px;
+  font-size: 100px;
+  letter-spacing: 20px;
   color: white;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 #menu2 {
@@ -445,11 +452,11 @@ h1 {
 }
 
 #star:hover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -moz-transform: rotate(540deg);
+  -webkit-transform: rotate(540deg);
+  -o-transform: rotate(540deg);
+  -ms-transform: rotate(540deg);
+  transform: rotate(540deg);
 }
 
 button {
@@ -458,6 +465,18 @@ button {
 
 .dcha:hover {
   scale: 1.5;
+}
+
+#arrow {
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  float: right;
+  padding-right: 20px;
+}
+
+#arrow:hover {
+  scale: 1.2;
 }
 
 .product-container {
@@ -518,14 +537,6 @@ h2 {
   margin: 0.7rem 0;
 }
 
-#arrow {
-  float: right;
-  position: relative;
-  z-index: 2;
-  top: -80px;
-  right: 100px;
-}
-
 .icon_footer {
   width: 50px;
 }
@@ -534,15 +545,16 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
   padding: 2rem;
   margin-top: 2rem;
+  border-top: 1px black solid;
 }
 
 footer p {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .favorite-article {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -579,6 +591,10 @@ footer p {
 
 #favorite-list ul {
   margin: 0;
+=======
+.icon_footer:hover {
+  scale: 1.2;
+>>>>>>> ddd08050c4ae5e3125f82355585ab0f13b573616
 }
 
 /*# sourceMappingURL=styles.css.map */
