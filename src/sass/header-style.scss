@@ -5,11 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap');
 
 header {
-    display: flex;
+    @include mixin.flex-between;  
     background-image: url("../../public/img/fire2.jpg");   
     height: 220px;
-    justify-content: space-between;    
-    align-items: center;      
     background-position: left;
 }
 
