@@ -366,7 +366,6 @@ header {
   height: 220px;
   justify-content: space-between;
   align-items: center;
-  background-clip: padding-box;
   background-position: left;
 }
 
@@ -376,15 +375,18 @@ header h1 {
 
 #logo {
   width: 250px;
-  padding-left: 150px;
+  padding-left: 20%;
+}
+
+#nameShop {
+  font-family: Kaushan Script;
 }
 
 h1 {
-  text-align: center;
-  font-size: 120px;
-  letter-spacing: 35px;
+  font-size: 100px;
+  letter-spacing: 20px;
   color: white;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 #menu2 {
@@ -406,11 +408,11 @@ h1 {
 }
 
 #star:hover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -moz-transform: rotate(540deg);
+  -webkit-transform: rotate(540deg);
+  -o-transform: rotate(540deg);
+  -ms-transform: rotate(540deg);
+  transform: rotate(540deg);
 }
 
 button {
@@ -418,6 +420,18 @@ button {
 }
 
 .dcha:hover {
+  scale: 1.5;
+}
+
+#arrow {
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  margin-right: 20px;
+}
+
+#arrow:hover {
   scale: 1.5;
 }
 
@@ -477,14 +491,6 @@ h2 {
 
 .product-card h2 {
   margin: 0.7rem 0;
-}
-
-#arrow {
-  float: right;
-  position: relative;
-  z-index: 2;
-  top: -80px;
-  right: 100px;
 }
 
 .icon_footer {
