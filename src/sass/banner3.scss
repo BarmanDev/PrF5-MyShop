@@ -7,14 +7,13 @@
 .banner_box {
     width: 100%;
     height: auto;
-    margin: 0;
     overflow: hidden;
 
     ul {
         display: flex;
-        padding: 0;
+        align-content: center;
         width: 600%;
-        animation: slide 20s infinite alternate ease-in-out;
+        animation: slide 30s infinite alternate ease-in-out;
 
         li {
             width: 100%;
@@ -24,14 +23,13 @@
             .txt_banner {
                 position: absolute;
                 text-align: center;
-                top: 250px;
-                color: whitesmoke;
+                top: 50px;
+                color: rgb(156, 5, 5);
 
                 h2 {
                     font-family: Century;
-                    font-size: 20px;
+                    font-size: 30px;
                     text-align: center;
-                    padding-left: 20%;
                 }
             } 
         }
@@ -39,7 +37,9 @@
 
     .img_banner {
         width: 100%;
-        border-radius: 0px 0px 80px 80px;
+        border-radius: 0px 0px 300px 300px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
 }
@@ -47,16 +47,22 @@
 
 @keyframes slide {
     0% {margin-left: 0; }
-    25% {margin-left: 0; }
+    17% {margin-left: 0; }
 
-    25% {margin-left: -100%; }
-    50% {margin-left: -100%; }
+    17% {margin-left: -100%; }
+    34% {margin-left: -100%; }
 
-    50% {margin-left: -200%; }
-    75% {margin-left: -200%; }
+    34% {margin-left: -200%; }
+    51% {margin-left: -200%; }
 
-    75% {margin-left: -300%; }
-    100% {margin-left: -300%; }
+    51% {margin-left: -300%; }
+    67% {margin-left: -300%; }
+
+    67% {margin-left: -400%; }
+    83% {margin-left: -400%; }
+
+    83% {margin-left: -500%; }
+    100% {margin-left: -500%; }
 }
     
 /* @media (max-width:991px) {

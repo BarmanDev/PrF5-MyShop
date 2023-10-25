@@ -527,14 +527,13 @@ footer p {
 .banner_box {
   width: 100%;
   height: auto;
-  margin: 0;
   overflow: hidden;
 }
 .banner_box ul {
   display: flex;
-  padding: 0;
+  align-content: center;
   width: 600%;
-  animation: slide 20s infinite alternate ease-in-out;
+  animation: slide 30s infinite alternate ease-in-out;
 }
 .banner_box ul li {
   width: 100%;
@@ -544,44 +543,57 @@ footer p {
 .banner_box ul li .txt_banner {
   position: absolute;
   text-align: center;
-  top: 250px;
-  color: whitesmoke;
+  top: 50px;
+  color: rgb(156, 5, 5);
 }
 .banner_box ul li .txt_banner h2 {
   font-family: Century;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
-  padding-left: 20%;
 }
 .banner_box .img_banner {
   width: 100%;
-  border-radius: 0px 0px 80px 80px;
+  border-radius: 0px 0px 300px 300px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @keyframes slide {
   0% {
     margin-left: 0;
   }
-  25% {
+  17% {
     margin-left: 0;
   }
-  25% {
+  17% {
     margin-left: -100%;
   }
-  50% {
+  34% {
     margin-left: -100%;
   }
-  50% {
+  34% {
     margin-left: -200%;
   }
-  75% {
+  51% {
     margin-left: -200%;
   }
-  75% {
+  51% {
     margin-left: -300%;
+  }
+  67% {
+    margin-left: -300%;
+  }
+  67% {
+    margin-left: -400%;
+  }
+  83% {
+    margin-left: -400%;
+  }
+  83% {
+    margin-left: -500%;
   }
   100% {
-    margin-left: -300%;
+    margin-left: -500%;
   }
 }
 /* @media (max-width:991px) {
