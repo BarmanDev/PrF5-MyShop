@@ -1,21 +1,11 @@
-const heartIcon = document.getElementById('heart-icon');
+document.addEventListener('DOMContentLoaded', function () {
+  const favoriteList = document.getElementById('favorite-list');
 
-function toggleHeart() {
-  const isRed = localStorage.getItem('heartIsRed') === 'true';
-
-  if (isRed) {
-    heartIcon.src = '/public/img/icons/HeartLoveLike.svg';
-    localStorage.setItem('heartIsRed', 'false');
-  } else {
-    heartIcon.src = '/public/img/icons/HeartLoveLikeRed.svg';
-    localStorage.setItem('heartIsRed', 'true');
+  for (let local in localStorage) {
+      if (local.startsWith('favoriteProduct_') && localStorage.getItem(local) === 'true') {
+          const favoriteItem = document.createElement('li');
+          favoriteItem.textContent = local.replace('favoriteProduct_', ''); 
+          favoriteList.appendChild(favoriteItem);
+      }
   }
-}
-
-heartIcon.addEventListener('click', toggleHeart);
-
-if (localStorage.getItem('heartIsRed') === 'true') {
-  heartIcon.src = '/public/img/icons/HeartLoveLikeRed.svg';
-} else {
-  heartIcon.src = '/public/img/icons/HeartLoveLike.svg';
-}
+});

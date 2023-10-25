@@ -24,10 +24,12 @@ function toggleFavorite(heartIcon, productId) {
 
     if (heartIcon.src.endsWith('HeartLoveLike.svg')) {
         heartIcon.src = '../../public/img/icons/HeartLoveLikeRed.svg';
-        // Guarda el estado en el Local Storage
         localStorage.setItem(localStorageKey, 'true');
     } else {
         heartIcon.src = '../../public/img/icons/HeartLoveLike.svg';
         localStorage.setItem(localStorageKey, 'false'); 
     }
 }
+
+
+

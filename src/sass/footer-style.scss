@@ -1,16 +1,20 @@
+@use 'mixin.scss';
+
 .icon_footer {
     width: 50px;
 }
 
 #foot {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: grey;
+    @include mixin.flex-between;  
     padding: 2rem;
     margin-top: 2rem;
+    border-top: 1px black solid;
 }
 
 footer p {
     font-size: 20px;
+}
+
+.icon_footer:hover {
+    scale: 1.3;
 }
