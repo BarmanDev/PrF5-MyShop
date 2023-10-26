@@ -1,51 +1,77 @@
-@use "mixin.scss";
 * {
+    box-sizing: border-box;
     font-family: Century;
+    padding:0;
 }
 
-.banner-el img {
-    display: flex;
+.banner_box {
     width: 100%;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    height: auto;
+    overflow: hidden;
+
+    ul {
+        display: flex;
+        align-content: center;
+        width: 600%;
+        animation: slide 30s infinite alternate ease-in-out;
+
+        li {
+            width: 100%;
+            list-style: none;
+            position: relative;
+    
+            .txt_banner {
+                position: absolute;
+                text-align: center;
+                top: 50px;
+                color: rgb(156, 5, 5);
+
+                h2 {
+                    font-family: Century;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            } 
+        }
+    }
+
+    .img_banner {
+        width: 100%;
+        border-radius: 0px 0px 300px 300px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
 
-#banner {
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    width: 100%;
+
+@keyframes slide {
+    0% {margin-left: 0; }
+    17% {margin-left: 0; }
+
+    17% {margin-left: -100%; }
+    34% {margin-left: -100%; }
+
+    34% {margin-left: -200%; }
+    51% {margin-left: -200%; }
+
+    51% {margin-left: -300%; }
+    67% {margin-left: -300%; }
+
+    67% {margin-left: -400%; }
+    83% {margin-left: -400%; }
+
+    83% {margin-left: -500%; }
+    100% {margin-left: -500%; }
 }
+    
+/* @media (max-width:991px) {
 
-.box {
-   	display: flex;
-	flex-flow: row wrap;
-	justify-content: left;
-}
-
-.slider-item  {
-    flex: 0  0 100%;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-    border-radius: 0 0 50px 50px;
- }
-
- .box .banner-txt {
-    max-width: 1000px;
-	margin: 0 auto;
-	height: 100%;
-	top: 90%;
-    position: absolute;
-    left: 40%;
-    color: whitesmoke;
-    font-family: Century;
- }
-
- .box .banner-txt span {
-    font-size: 18px;
-	letter-spacing: 2px;
-	font-weight: 300;
- }
-
-
+    .banner_box {
+        width: 100%;
+    }
+    .txt_banner {
+        top: 50px;
+        padding: 0;
+    } 
+}*/
