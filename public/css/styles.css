@@ -147,7 +147,7 @@ body {
 body .detail-title {
   color: black;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 100px;
   font-family: century;
   font-style: normal;
   font-variant: small-caps;
@@ -155,22 +155,22 @@ body .detail-title {
   text-transform: uppercase;
 }
 body .detail-p {
-  font-size: 20px;
+  font-size: 35px;
   font-family: century;
 }
 
 #detail-container img {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
 }
 #detail-container .heart {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: fixed;
 }
 #detail-container .cart {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: relative;
   padding-right: 20px;
 }
@@ -179,20 +179,22 @@ body .detail-p {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  width: 900px;
+  gap: 10%;
 }
 #detail-container .text-container h1 {
-  margin-left: 120px;
+  margin-left: 50px;
+  font-size: 60px;
 }
 #detail-container .main-box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-left: 150px;
+  height: 830px;
 }
 #detail-container .main-box h3 {
   text-align: center;
-  font-size: 80px;
+  font-size: 100px;
   font-family: century;
 }
 #detail-container .main-box .button-container {
@@ -209,7 +211,7 @@ body .detail-p {
   color: white;
   padding: 15px;
   font-family: century;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   margin: 10px 10px;
   cursor: pointer;
@@ -221,11 +223,11 @@ body .detail-p {
   align-items: center;
 }
 #review-container img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 #review-container li {
-  font-size: 18px;
+  font-size: 30px;
   font-family: century;
 }
 
