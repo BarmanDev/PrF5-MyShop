@@ -13,7 +13,7 @@
         display: flex;
         align-content: center;
         width: 600%;
-        animation: slide 30s infinite alternate ease-in-out;
+        animation: slide 200s infinite alternate ease-in-out;
 
         li {
             width: 100%;
@@ -38,8 +38,7 @@
     .img_banner {
         width: 100%;
         border-radius: 0px 0px 300px 300px;
-        padding-left: 10%;
-        padding-right: 10%;
+
     }
 
 }
