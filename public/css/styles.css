@@ -454,7 +454,7 @@ body .detail-p {
   display: flex;
   justify-content: center;
   margin-right: 29rem;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 header {
@@ -464,6 +464,9 @@ header {
   background-image: url("../../public/img/fire2.jpg");
   height: 220px;
   background-position: left;
+}
+header .head_background {
+  width: 100%;
 }
 
 #nameShop {

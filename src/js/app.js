@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
 
     const heartIcons = document.querySelectorAll('.red-heart');
@@ -34,7 +33,6 @@ function toggleFavorite(heartIcon, productId) {
 
 
 
-=======
 'use strict'
 
 
@@ -57,4 +55,3 @@ punto.forEach((cadaPunto, i) => {
 
     })
 })
->>>>>>> feature/all-bannerv2
