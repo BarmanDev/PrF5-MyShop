@@ -20,14 +20,21 @@
         </div>
 
         <div id="menu2">
-            <a href="./favorite-products.html"><img class="dcha" id="star" src="../../public/img/icons/StarRatings.svg" alt="favorite icon"></a>
-            <a href=""><img class="dcha" src="../../public/img/icons/ShoppingCart.svg" alt="cart icon"></a>
+            <a href="./favorite-products.html"><img class="dcha" id="star" src="../../public/img/icons/Star.svg" alt="favorite icon"></a>
+            <a href="#"><img class="dcha" src="../../public/img/icons/Cart.svg" alt="cart icon"></a>
         </div>                
         
     </header> 
     
-    <a href="../index.html"><img id="arrow" src="../../public/img/icons/icons8-arrow-pointing-left-48.png" alt="icon cart"></a>
+    <a href="../index.html"><img id="arrow" src="../../public/img/icons/Arrow.svg" alt="icon cart"></a>
 
+ 
+    <audio id="music" src="/public/music/Star_Wars_Song.mp3" autoplay loop></audio> 
+    <input type="image" src="/public/img/icons/volume.svg" id="first" class="volume" alt="volume icon" onclick="mute(); view_first(); view_second()">
+    <input type="image" src="/public/img/icons/volume_off.svg" id="second" class="volume" alt="volume icon" onclick="mute(); view_second(); view_first()">
+    
+
+    
     <div id="nav-content">
         <nav id="navigator-bar">
             <ul>
@@ -209,5 +216,5 @@
             </footer>
     </main>
 </body>
-<script src="../../src/js/detail-product.js"></script
+<script src="../../src/js/detail-product.js"></script>
 </html>
