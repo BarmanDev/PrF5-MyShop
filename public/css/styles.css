@@ -466,59 +466,46 @@ header {
 header .head_background {
   width: 100%;
 }
-
-#nameShop {
+header #nameShop {
   font-family: Kaushan Script;
 }
-
-#logo {
+header #logo {
   width: 250px;
   padding-left: 20%;
 }
-
-#nameShop {
-  font-family: Kaushan Script;
-}
-
-h1 {
+header h1 {
   font-size: 100px;
   letter-spacing: 20px;
   color: white;
   padding-right: 20px;
 }
-
-#menu2 {
+header #menu2 {
   margin-right: 20px;
   float: top;
   height: 60%;
 }
-
-#menu2 img {
+header #menu2 img {
   width: 40px;
 }
-
-#star:hover {
+header #menu2 .dcha:hover {
+  scale: 1.5;
+}
+header #menu2 #star:hover {
   -moz-transition: all 0.8s ease-in-out;
   -webkit-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
   -ms-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-
-#star:hover {
+header #menu2 #star:hover {
   -moz-transform: rotate(540deg);
   -webkit-transform: rotate(540deg);
   -o-transform: rotate(540deg);
   -ms-transform: rotate(540deg);
   transform: rotate(540deg);
 }
-
-button {
+header #menu2 button {
   border: none;
-}
-
-.dcha:hover {
-  scale: 1.5;
 }
 
 #arrow {
@@ -527,10 +514,31 @@ button {
   top: -80px;
   float: right;
   padding-right: 20px;
+  scale: 1.7;
 }
 
 #arrow:hover {
-  scale: 1.2;
+  scale: 2.3;
+}
+
+.volume {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  z-index: 2;
+  top: -70px;
+  float: left;
+  margin-left: 80px;
+}
+
+#first {
+  visibility: visible;
+  display: block;
+}
+
+#second {
+  visibility: hidden;
+  display: none;
 }
 
 .product-container {
