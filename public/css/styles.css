@@ -593,6 +593,7 @@ h2 {
 
 .icon_footer {
   width: 50px;
+  color: white;
 }
 
 #foot {
@@ -602,6 +603,8 @@ h2 {
   padding: 2rem;
   margin-top: 2rem;
   border-top: 1px black solid;
+  background-color: #023476;
+  color: white;
 }
 
 footer p {
