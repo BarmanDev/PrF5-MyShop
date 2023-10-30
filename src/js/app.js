@@ -1,22 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
 
-    const heartIcons = document.querySelectorAll('.red-heart');
-
-    heartIcons.forEach(heartIcon => {
-        const productId = heartIcon.closest('.product-card').querySelector('h2').textContent;
-
-
-        const isFavorite = localStorage.getItem(`favoriteProduct_${productId}`) === 'true';
-        if (isFavorite) {
-            heartIcon.src = '../../public/img/icons/HeartLoveLikeRed.svg';
-        }
-
-
-        heartIcon.addEventListener('click', function () {
-            toggleFavorite(heartIcon, productId);
-        });
-    });
-});
 
 function toggleFavorite(heartIcon, productId) {
     
