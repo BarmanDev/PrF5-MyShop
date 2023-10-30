@@ -291,6 +291,8 @@ body .detail-p {
   padding: 15px;
   margin-top: 20px;
   border-top: 1px black solid;
+  background-color: #023476;
+  color: white;
 }
 
 .footer-2 p {
@@ -593,7 +595,6 @@ h2 {
 
 .icon_footer {
   width: 50px;
-  color: white;
 }
 
 #foot {
