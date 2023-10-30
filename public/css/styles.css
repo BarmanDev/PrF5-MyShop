@@ -146,6 +146,7 @@ table {
   font-family: Century;
   font-size: 1.4em;
   color: black;
+  background-color: #f00303;
 }
 #navigator-bar li {
   display: inline;
@@ -158,8 +159,9 @@ table {
   transition: transform 0.3s;
 }
 #navigator-bar li a:hover {
-  color: #f00303;
+  color: #fcf6f6;
   font-size: 1.55em;
+  background-color: #e09595;
 }
 #navigator-bar ul {
   display: flex;
