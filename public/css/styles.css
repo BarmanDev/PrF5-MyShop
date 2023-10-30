@@ -78,8 +78,9 @@ table {
 .banner_box ul li .txt_banner {
   position: absolute;
   text-align: center;
-  top: 50px;
-  color: rgb(156, 5, 5);
+  top: 85%;
+  left: 38%;
+  color: rgb(252, 250, 250);
 }
 .banner_box ul li .txt_banner h2 {
   font-family: Century;
