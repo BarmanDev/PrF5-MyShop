@@ -95,7 +95,7 @@
             <img src="./img/logos/VbNv3YIs_400x400.jpeg" alt="camaleón disney">
         </div>
         <section class="categories-products">
-        <p>Selecciona tu categoria favorita</p>
+            <p>Selecciona tu categoria favorita</p>
             <img src="./img/logos/s-l1200.png" alt="campanilla">
         </section>
         <section id="contain-img">
@@ -137,7 +137,7 @@
         </section>
         <section id="contain-img-sub">
 
-            <img src="./img/logos/ratatui.png" alt="Imagen de ratatouille">
+            <a href="./pages/correos.html"><img src="./img/logos/ratatui.png" alt="Imagen de ratatouille"></a>
 
 
         </section>
@@ -148,12 +148,22 @@
             <div class="letters">
                 <p>Subscríbete:</p>
             </div>
-            <div class="inputsub">
-                <input type="  ">
-            </div>
+            <form id="registroForm">
+                <input class="inputsub" type="email" id="email" required>
+                <button class="button_sub" type="submit">Enviar</button>
+            </form>
+
 
         </section>
+        
+            <a href="./pages/correos.html">
+                <button id="data-button">datos</button>
+            </a>
+            <ul hidden id="listaCorreos"></ul>
+        
+
     </main>
+
 
 
     <footer>
@@ -174,7 +184,9 @@
         </section>
     </footer>
 
-    <script src="../src/js/app.js"></script>
+    <script src="../../src/js/favorite-single.js"></script>
+    <script src="../../src/js/home-main.js"></script>
+
 
 </body>
 
