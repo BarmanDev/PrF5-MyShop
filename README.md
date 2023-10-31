@@ -16,12 +16,19 @@ Por último, al acceder a uno de los productos deseados, aparecerá el producto 
 </div>
 
 ## DISEÑO DE LA WEB
-<div>    
+<div>
     <img src="./public/img/readme/Sketch.PNG" >
+    <br>
     <img src="./public/img/readme/prototype.PNG" >
+    <br>
     <img src="./public/img/readme/mockup.PNG" >
 </div>
 
+## USER FLOW
+
+<div>
+    <img src="./public/img/readme/USER.svg">
+</div>
 
 
 ## FUNCIONALIDADES DE LA WEB
