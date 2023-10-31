@@ -1,20 +1,5 @@
 
 
-function toggleFavorite(heartIcon, productId) {
-    
-    const localStorageKey = `favoriteProduct_${productId}`;
-
-    if (heartIcon.src.endsWith('HeartLoveLike.svg')) {
-        heartIcon.src = '../../public/img/icons/HeartLoveLikeRed.svg';
-        localStorage.setItem(localStorageKey, 'true');
-    } else {
-        heartIcon.src = '../../public/img/icons/HeartLoveLike.svg';
-        localStorage.setItem(localStorageKey, 'false'); 
-    }
-}
-
-
-
 'use strict'
 
 
