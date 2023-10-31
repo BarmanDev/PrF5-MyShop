@@ -27,6 +27,46 @@ El consenso es clave en nuestro proceso creativo. Hemos valorado todas las opini
 <br>
 Un User Flow es una representación visual y secuencial de las acciones que un usuario realiza en una aplicación o sitio web para lograr un objetivo específico. Estas representaciones muestran el camino que un usuario sigue, desde el inicio de su interacción con la aplicación web hasta la consecución de una tarea o acción deseada. 
 
+## METODOLOGÍA SCRUM
+
+Hemos estructurado nuestro trabajo en ciclos llamados "sprints". Estos sprints tienen una duración fija de 1 semana y nos ayudaron a concentrarnos en tareas específicas y prioritarias. Al final de cada sprint, revisamos lo que hemos logrado y nos preparamos para el siguiente ciclo. Esto garantiza que estemos entregando valor de manera constante.
+
+### ¿Qué es Scrum?
+Scrum es un marco de trabajo ágil que enfatiza la colaboración, la transparencia y la entrega iterativa de productos. En nuestro proyecto, Scrum ha sido la piedra fundamental de nuestra gestión, lo que nos ha permitido optimizar nuestro proceso de desarrollo.
+
+### Trabajo en Equipo
+
+En nuestro enfoque de desarrollo, el trabajo en equipo es fundamental. Todos los miembros del equipo, participamos en el diseño y desarrollo contribuyendo de manera activa y colaborativa. Ademas, de resolver de forma conjunta todos los problemas que nos fuimos encontrando en el desarrollo de la aplicación web.
+
+### Daily
+
+Todos los días a primera hora nos reunimos para comentar lo que hicimos ayer, lo que vamos a hacer hoy y qué dificultades nos encontramos para buscar una solución en equipo y realizar con Confluence el seguimiento.
+
+<img src="./public/img/readme/daily.gif">
+
+### Cronograma
+
+El cronograma es un marco de tiempo para que tengamos una planificación y control del trabajo.
+
+<img src="./public/img/readme/cronograma.PNG">
+
+### Backlog y tablero
+
+El backlog es una lista de prioridaz de tareas, funcionalidades y mejoras de la aplicación web usando historias de usuario con una breve descripción de una funcionalidad o caracteristica siempre bajo la perpectiva del usuario.
+
+<img src="./public/img/readme/backlog.PNG">
+
+Por último se utilizo un tablero to do list para la asignación de tareas y seguimiento del mismo.
+
+<img src="./public/img/readme/tablero.PNG">
+
+
+### Retrospectiva
+
+Con la finalización de cada sprint semanal realizamos una reunión para analizar el trabajo semanal analizando y bucando mejoras. 
+
+<img src="./public/img/readme/retrospectiva.PNG">
+
 ## LENGUAJES UTILIZADOS :rocket:
 
 <div>
