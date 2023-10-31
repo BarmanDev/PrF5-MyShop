@@ -152,21 +152,21 @@ table {
   background-color: #332175;
   color: white;
 }
-#navigator-bar li {
+#navigator-bar .li-nav-bar {
   display: inline;
   text-align: center;
 }
-#navigator-bar li a {
+#navigator-bar .li-nav-bar a {
   padding: 2px 7px 2px 7px;
   border: 1px solic black;
   text-decoration: none;
   transition: transform 0.3s;
 }
-#navigator-bar li a:hover {
+#navigator-bar .li-nav-bar a:hover {
   color: white;
   font-size: 1.2em;
 }
-#navigator-bar ul {
+#navigator-bar #ul-nav-bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -371,8 +371,8 @@ body .detail-p {
 }
 
 .inputsub input {
-  width: 8rem;
-  height: 1.8rem;
+  width: 10rem;
+  height: 2rem;
   border-radius: 20px 10px 10px 0px;
   padding-right: 1rem;
   font-size: 0.9rem;
@@ -461,6 +461,41 @@ body .detail-p {
   justify-content: center;
   margin-right: 29rem;
   padding-top: 45px;
+}
+
+.button_sub {
+  background-color: rgba(20, 33, 151, 0.856);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  width: 4.3rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: rgb(66, 66, 66);
+  margin-left: 1rem;
+  font-family: century;
+  cursor: pointer;
+  text-shadow: 2px;
+}
+
+.button_sub:hover {
+  background-color: rgba(120, 178, 253, 0.856);
+}
+
+.data-button {
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  border-radius: 40px;
+  box-shadow: 0 0 0 0 rgba(145, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 3.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.button-data {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
 }
 
 header {
@@ -667,6 +702,14 @@ footer p {
 
 #favorite-list ul {
   margin: 0;
+}
+
+.tittle-emails {
+  font-size: 44px;
+  color: #0077C0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

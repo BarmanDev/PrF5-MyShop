@@ -39,13 +39,13 @@
 
     <div id="nav-content">
         <nav id="navigator-bar">
-            <ul>
-                <li><a href="./pages/general-products.html">STAR WARS</a></li>
-                <li><a href="#"></a> MARVEL</li>
-                <li><a href="#"></a> PIXAR</li>
-                <li><a href="#"></a> LEGO</li>
-                <li><a href="#"></a> THE SIMPSONS</li>
-                <li><a href="#"></a> WALT DISNEY</li>
+            <ul id="ul-nav-bar">
+                <li class="li-nav-bar"><a href="./pages/general-products.html">STAR WARS</a></li>
+                <li class="li-nav-bar"><a href="#"></a> MARVEL</li>
+                <li class="li-nav-bar"><a href="#"></a> PIXAR</li>
+                <li class="li-nav-bar"><a href="#"></a> LEGO</li>
+                <li class="li-nav-bar"><a href="#"></a> THE SIMPSONS</li>
+                <li class="li-nav-bar"><a href="#"></a> WALT DISNEY</li>
             </ul>
         </nav>
     </div>
@@ -104,7 +104,7 @@
             <img src="./img/logos/VbNv3YIs_400x400.jpeg" alt="camaleón disney">
         </div>
         <section class="categories-products">
-        <p>Selecciona tu categoria favorita</p>
+            <p>Selecciona tu categoria favorita</p>
             <img src="./img/logos/s-l1200.png" alt="campanilla">
         </section>
         <section id="contain-img">
@@ -146,7 +146,7 @@
         </section>
         <section id="contain-img-sub">
 
-            <img src="./img/logos/ratatui.png" alt="Imagen de ratatouille">
+            <a href="./pages/correos.html"><img src="./img/logos/ratatui.png" alt="Imagen de ratatouille"></a>
 
 
         </section>
@@ -157,12 +157,23 @@
             <div class="letters">
                 <p>Subscríbete:</p>
             </div>
-            <div class="inputsub">
-                <input type="  ">
-            </div>
+            <form id="registroForm">
+                <input class="inputsub" type="email" id="email" required>
+                <button class="button_sub" type="submit">Enviar</button>
+            </form>
 
         </section>
+
+        <section class="button-data">
+            <a href="./pages/correos.html" class="data-button">Datos</a>
+            </a>
+        </section>
+        <ul hidden id="listaCorreos"></ul>
+
+
     </main>
+
+
 
     <footer>
         <section id="foot">
@@ -198,6 +209,9 @@
 
     <script src="../src/js/app.js"></script>
    
+    <script src="../../src/js/favorite-single.js"></script>
+    <script src="../../src/js/home-main.js"></script>
+
 
 </body>
 
