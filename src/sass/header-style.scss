@@ -2,99 +2,99 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,900;1,900&family=Skranji&display=swap');
 
-header {
-    @include mixin.flex-between;  
+header {     
     background-image: url("../../public/img/fire2.jpg");   
     height: 220px;
     background-position: left;
-    
-    .head_background {
-        width: 100%;
-    }
-
-    #nameShop {
-        font-family: Kaushan Script;
-    }
-
-    #logo {
-        width: 250px;
-        padding-left: 20%;    
-    }
-
-    h1 {
-        font-size: 100px;
-        letter-spacing: 20px;
-        color: white;
-        padding-right: 20px;   
-    }
-
-    #menu2 {
-        margin-right: 20px;
-        float: top;
-        height: 60%;
-   
-        img {
-            width: 40px;
-        }
         
-        .dcha:hover {
-            scale: 1.5;
-        }    
-
-        #star:hover{ 
-            -moz-transition: all 0.8s ease-in-out;
-            -webkit-transition: all 0.8s ease-in-out;
-            -o-transition: all 0.8s ease-in-out;
-            -ms-transition: all 0.8s ease-in-out;
-            transition: all 0.8s ease-in-out;
-        }
-            
-        #star:hover{
-            -moz-transform: rotate(540deg);
-            -webkit-transform: rotate(540deg);
-            -o-transform: rotate(540deg);
-            -ms-transform: rotate(540deg);
-            transform: rotate(540deg);
-            }
-
-        button {
-            border: none;    
-        }
+    .head {
+        @include mixin.flex-between;        
     }
 
+        #nameShop {
+            font-family: Kaushan Script;
+            padding-top: 60px;
+        }
+
+        #logo {
+            width: 250px;
+            padding-left: 20%;
+            padding-top: 40px;
+        }
+
+        h1 {
+            font-size: 100px;
+            letter-spacing: 20px;
+            color: white;
+            padding-right: 20px;   
+        }
+
+        #menu2 {
+            margin-right: 20px;
+            float: top;
+            height: 80%;
+            
+    
+            img {
+                width: 40px;
+            }
+            
+            .dcha:hover {
+                scale: 1.5;
+            }    
+
+            #star:hover{ 
+                -moz-transition: all 0.8s ease-in-out;
+                -webkit-transition: all 0.8s ease-in-out;
+                -o-transition: all 0.8s ease-in-out;
+                -ms-transition: all 0.8s ease-in-out;
+                transition: all 0.8s ease-in-out;
+            }
+                
+            #star:hover{
+                -moz-transform: rotate(540deg);
+                -webkit-transform: rotate(540deg);
+                -o-transform: rotate(540deg);
+                -ms-transform: rotate(540deg);
+                transform: rotate(540deg);
+                }
+
+            button {
+                border: none;    
+            }
+        }
 }
 
-#arrow {
-    position: relative;
-    z-index: 2;
-    top: -80px;
-    float: right;
-    padding-right: 20px;
-    scale: 1.7;   
-} 
+    #arrow {
+        position: relative;
+        z-index: 2;
+        top: 20px;
+        float: right;
+        margin-right: 25px;
+        scale: 1.7;   
+    } 
 
-#arrow:hover{ 
-    scale: 2.3;
-}
- 
+    #arrow:hover{ 
+        scale: 2.3;
+    } 
 
-.volume {
-    width: 35px;
-    height: 35px;
-    position: relative;
-    z-index: 2;
-    top: -70px;
-    float: left;
-    margin-left: 80px;
-}
+    .volume {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        top: -10px;
+        float: left;
+        margin-left: 80px;
+    }
 
-#first {
-    visibility: visible; 
-    display: block;
-}
+        #first {
+            visibility: visible; 
+            display: block;
+        }
 
-#second {
-    visibility: hidden; 
-    display: none;
-}
+        #second {
+            visibility: hidden; 
+            display: none;
+        }
 
