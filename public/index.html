@@ -11,27 +11,31 @@
 
 <body>
     <header>
+        <section class="head">
+            <div>
+                <img id="logo" src="./img/logo_disney.png" alt="logo de Disney">
+            </div>
 
-        <div>
-            <img id="logo" src="./img/logo_disney.png" alt="logo de Disney">
-        </div>
+            <div id="nameShop">
+                <h1>shopDisney</h1>
+            </div>
 
-        <div id="nameShop">
-            <h1>shopDisney</h1>
-        </div>
+            <div id="menu2">
+                <a href="./pages/favorite-products.html"><img class="dcha" id="star" src="../../public/img/icons/Star.svg" alt="favorite icon"></a>
 
-        <div id="menu2">
-            <a href="./pages/favorite-products.html"><img class="dcha" id="star" src="../../public/img/icons/Star.svg" alt="favorite icon"></a>
-            <a href="#"><img class="dcha" src="../../public/img/icons/Cart.svg" alt="cart icon"></a>
-        </div>  
+                <a href="#"><img class="dcha" src="../../public/img/icons/Cart.svg" alt="cart icon"></a>
+            </div>
+        </section>
 
+        <section>
+            <a href="../index.html"><img id="arrow" src="../../public/img/icons/Arrow.svg" alt="icon cart"></a>
+            
+            <audio id="music" src="/public/music/Disney_Song.mp3" autoplay loop></audio> 
+            <input type="image" src="/public/img/icons/volume.svg" id="first" class="volume" alt="volume icon" onclick="mute(); view_first(); view_second()">
+
+            <input type="image" src="/public/img/icons/volume_off.svg" id="second" class="volume" alt="volume icon" onclick="mute(); view_second(); view_first()">
+        </section> 
     </header>
-
-
-    <audio id="music" src="/public/music/Disney_Song.mp3" autoplay loop></audio> 
-    <input type="image" src="/public/img/icons/volume.svg" id="first" class="volume" alt="volume icon" onclick="mute(); view_first(); view_second()">
-    <input type="image" src="/public/img/icons/volume_off.svg" id="second" class="volume" alt="volume icon" onclick="mute(); view_second(); view_first()">
-    
 
     <div id="nav-content">
         <nav id="navigator-bar">
@@ -100,7 +104,7 @@
             <img src="./img/logos/VbNv3YIs_400x400.jpeg" alt="camaleón disney">
         </div>
         <section class="categories-products">
-        <p>Selecciona tu categoria favorita</p>
+            <p>Selecciona tu categoria favorita</p>
             <img src="./img/logos/s-l1200.png" alt="campanilla">
         </section>
         <section id="contain-img">
@@ -142,7 +146,7 @@
         </section>
         <section id="contain-img-sub">
 
-            <img src="./img/logos/ratatui.png" alt="Imagen de ratatouille">
+            <a href="./pages/correos.html"><img src="./img/logos/ratatui.png" alt="Imagen de ratatouille"></a>
 
 
         </section>
@@ -153,12 +157,23 @@
             <div class="letters">
                 <p>Subscríbete:</p>
             </div>
-            <div class="inputsub">
-                <input type=" ">
-            </div>
+            <form id="registroForm">
+                <input class="inputsub" type="email" id="email" required>
+                <button class="button_sub" type="submit">Enviar</button>
+            </form>
 
         </section>
+
+        <section class="button-data">
+            <a href="./pages/correos.html" class="data-button">Datos</a>
+            </a>
+        </section>
+        <ul hidden id="listaCorreos"></ul>
+
+
     </main>
+
+
 
     <footer>
         <section id="foot">
@@ -193,6 +208,10 @@
     </footer>
 
     <script src="../src/js/app.js"></script>
+   
+    <script src="../../src/js/favorite-single.js"></script>
+    <script src="../../src/js/home-main.js"></script>
+
 
 </body>
 
