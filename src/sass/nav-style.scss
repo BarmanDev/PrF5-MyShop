@@ -14,28 +14,28 @@
             // background-image: linear-gradient(-280deg, #332175 0%, #4a1485 29%, #FF1361 67%, #FFF800 100%)
         }
 
-     li {
-    display: inline;
-    text-align: center;
-        a {
-            padding: 2px 7px 2px 7px;
-            border: 1px solic black;
-            text-decoration: none;
-            transition: transform 0.3s;
+     .li-nav-bar {
+        display: inline;
+        text-align: center;
+            a {
+                padding: 2px 7px 2px 7px;
+                border: 1px solic black;
+                text-decoration: none;
+                transition: transform 0.3s;
+            }
+            a:hover {
+                color: white;
+                font-size: 1.2em;
+            }
         }
-        a:hover {
-            color: white;
-            font-size: 1.2em;
-        }
-    }
 
-    ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1em;
+        #ul-nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1em;
+        }
     }
-}
 
 #nav-content {
     border: black solid 1px;
