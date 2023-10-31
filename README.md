@@ -17,15 +17,10 @@ Por último, al acceder a uno de los productos deseados, aparecerá el producto 
 
 ## DISEÑO DE LA WEB
 <div>
-    <img src="./public/img/readme/Sketch.PNG" >
-    <br>
-    <img src="./public/img/readme/prototype.PNG" >
-    <br>
-    <img src="./public/img/readme/mockup.PNG" >
+    <img src="./public/img/readme/figma.PNG" >
 </div>
 
 ## USER FLOW
-
 <div>
     <img src="./public/img/readme/USER.svg">
 </div>
@@ -43,6 +38,7 @@ Por último, al acceder a uno de los productos deseados, aparecerá el producto 
 ### Vista Productos
 1- 15 Productos animados con hover.
 2- Cada producto se podrá dar click en el corazón y almacenar los productos en local storage para consultar más adelante en otra vista.
+3- BSO de Star Wars con la opción de mutear la canción.
 
 ### Vista detalle del producto
 1- El producto se ve con una descripción y el botón de añadir al carrito.
