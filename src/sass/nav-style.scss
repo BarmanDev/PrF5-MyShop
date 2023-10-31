@@ -6,6 +6,13 @@
     font-family: Century;
     font-size: 1.4em;
     color: black;
+    background-image: linear-gradient(-140deg, #332175 0%, #4a1485 29%, #FF1361 67%, #FFF800 100%);
+    
+        :hover {
+            background-color:#332175;
+            color: white;
+            // background-image: linear-gradient(-280deg, #332175 0%, #4a1485 29%, #FF1361 67%, #FFF800 100%)
+        }
 
      li {
     display: inline;
@@ -17,8 +24,8 @@
             transition: transform 0.3s;
         }
         a:hover {
-            color: #f00303;
-            font-size: 1.55em;
+            color: white;
+            font-size: 1.2em;
         }
     }
 
