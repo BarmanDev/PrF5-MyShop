@@ -29,12 +29,12 @@ Un User Flow es una representación visual y secuencial de las acciones que un u
 
 ## METODOLOGÍA SCRUM
 
-Hemos estructurado nuestro trabajo en ciclos llamados "sprints". Estos sprints tienen una duración fija de 1 semana y nos ayudaron a concentrarnos en tareas específicas y prioritarias. Al final de cada sprint, revisamos lo que hemos logrado y nos preparamos para el siguiente ciclo. Esto garantiza que estemos entregando valor de manera constante.
-
 ### ¿Qué es Scrum?
 Scrum es un marco de trabajo ágil que enfatiza la colaboración, la transparencia y la entrega iterativa de productos. En nuestro proyecto, Scrum ha sido la piedra fundamental de nuestra gestión, lo que nos ha permitido optimizar nuestro proceso de desarrollo.
 
 ### Trabajo en Equipo
+
+Hemos estructurado nuestro trabajo en ciclos llamados "sprints". Estos sprints tienen una duración fija de 1 semana y nos ayudaron a concentrarnos en tareas específicas y prioritarias. Al final de cada sprint, revisamos lo que hemos logrado y nos preparamos para el siguiente ciclo. Esto garantiza que estemos entregando valor de manera constante.
 
 En nuestro enfoque de desarrollo, el trabajo en equipo es fundamental. Todos los miembros del equipo, participamos en el diseño y desarrollo contribuyendo de manera activa y colaborativa. Ademas, de resolver de forma conjunta todos los problemas que nos fuimos encontrando en el desarrollo de la aplicación web.
 
