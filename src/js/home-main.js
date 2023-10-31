@@ -1,34 +1,3 @@
-/* const correosRegistrados = [];
-
-
-const registroForm = document.getElementById("registroForm");
-const listaCorreos = document.getElementById("listaCorreos");
-
-
-registroForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    
-    const emailInput = document.getElementById("email");
-    const email = emailInput.value;
-
-    
-    if (!correosRegistrados.includes(email)) {
-        
-        correosRegistrados.push(email);
-
-        const listItem = document.createElement("li");
-        listItem.textContent = email;
-        listaCorreos.appendChild(listItem);
-
-        
-        emailInput.value = "";
-    } else {
-        alert("Este correo electrónico ya ha sido registrado.");
-    }
-}); */
-
-
 function cargarCorreos() {
     const correosRegistrados = JSON.parse(localStorage.getItem('correos'));
     if (correosRegistrados) {

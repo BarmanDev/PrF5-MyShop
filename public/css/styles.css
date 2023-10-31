@@ -474,6 +474,22 @@ body .detail-p {
   background-color: rgba(120, 178, 253, 0.856);
 }
 
+.data-button {
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  border-radius: 40px;
+  box-shadow: 0 0 0 0 rgba(145, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 3.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.button-data {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -667,6 +683,35 @@ footer p {
 
 #favorite-list ul {
   margin: 0;
+}
+
+.tittle-emails {
+  font-size: 44px;
+  color: #0077C0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#listaCorreos ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  margin: 8px;
+  padding: 10px;
+  background-color: #FFD700;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=styles.css.map */
