@@ -6,29 +6,36 @@
     font-family: Century;
     font-size: 1.4em;
     color: black;
-
-     li {
-    display: inline;
-    text-align: center;
-        a {
-            padding: 2px 7px 2px 7px;
-            border: 1px solic black;
-            text-decoration: none;
-            transition: transform 0.3s;
+    background-image: linear-gradient(-140deg, #332175 0%, #4a1485 29%, #FF1361 67%, #FFF800 100%);
+    
+        :hover {
+            background-color:#332175;
+            color: white;
+            // background-image: linear-gradient(-280deg, #332175 0%, #4a1485 29%, #FF1361 67%, #FFF800 100%)
         }
-        a:hover {
-            color: #f00303;
-            font-size: 1.55em;
+
+     .li-nav-bar {
+        display: inline;
+        text-align: center;
+            a {
+                padding: 2px 7px 2px 7px;
+                border: 1px solic black;
+                text-decoration: none;
+                transition: transform 0.3s;
+            }
+            a:hover {
+                color: white;
+                font-size: 1.2em;
+            }
+        }
+
+        #ul-nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1em;
         }
     }
-
-    ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1em;
-    }
-}
 
 #nav-content {
     border: black solid 1px;
