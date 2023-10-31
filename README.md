@@ -19,7 +19,7 @@ Por último, al acceder a uno de los productos deseados, aparecerá el producto 
 <div>
     <img src="./public/img/readme/Sketch.PNG" >
     <img src="./public/img/readme/prototype.PNG" >
-    <img src="./public/img/readme/Sketch.PNG >
+    <img src="./public/img/readme/mockup.PNG >
 </div>
 
 ## FUNCIONALIDADES DE LA WEB
