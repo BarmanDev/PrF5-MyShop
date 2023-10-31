@@ -1,4 +1,7 @@
 # MyShop :movie_camera:
+<div>
+    <img src="./public/img/readme/presentation.gif">
+</div>
 ## DESCRIPCIÓN DEL PROYECTO  :mag:
 
 Los CEOs de Disney, Giacomo y María, han solicitado al equipo de desarrollo mejorar la experiencia de comercio electrónico en la página web de Disney. El objetivo es crear una página de inicio de Disney con 6 categorías de la marca.
