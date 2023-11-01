@@ -1,7 +1,7 @@
 function mute() {
-    var aud = document.getElementById("music");
-    if (aud.muted == false) {aud.muted = true}
-    else {aud.muted = false}
+    let audio = document.getElementById("music");
+    if (audio.muted == false) {audio.muted = true}
+    else {audio.muted = false}
     }
 
 let muted = false;
