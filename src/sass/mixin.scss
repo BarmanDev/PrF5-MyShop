@@ -1,5 +1,17 @@
+
 @mixin flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+@mixin grid-columns($columns, $columnWidth, $gap, $marginLeft) {
+    display: grid;
+    grid-template-columns: repeat(#{$columns}, #{$columnWidth});
+    gap: #{$gap};
+    margin-left: #{$marginLeft};
+  }
+@mixin flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+  }
