@@ -94,7 +94,7 @@ Con la finalización de cada sprint semanal realizamos una reunión para analiza
 ### Vista detalle del producto
 1. El producto se ve con una descripción y el botón de añadir al carrito.
 2. El producto se puede cambiar de imagen para ver diferentes posiciones del mismo.
-3- El corazón de detalle del producto también tiene la funcionalidad de almacenar en local storage.
+3. El corazón de detalle del producto también tiene la funcionalidad de almacenar en local storage.
 
 ### Vista favoritos
 1. Todos los productos guardados en favoritos se pueden visualizar correctamente en el caso que se quite algún favorito este desaparecerá de la lista.
